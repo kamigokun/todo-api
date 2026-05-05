@@ -1,0 +1,13 @@
+# Virtual environment - no need to push 300MB of packages
+venv/
+
+# Secrets - NEVER push this
+.env
+
+# Python auto-creates these, they're junk files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code personal settings
+.vscode/
