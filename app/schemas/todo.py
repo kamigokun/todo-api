@@ -39,4 +39,4 @@ class PaginatedTodos(BaseModel):
     data : List[TodoOut]   #list of todo items
     page : int     #current page no.
     limit : int    #hwo many per page
-    total : int    #total todos in database
+    total : int    #total todos in database                     
