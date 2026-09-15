@@ -1,5 +1,5 @@
 # Virtual environment - no need to push 300MB of packages
-venv/
+.venv/
 
 # Secrets - NEVER push this
 .env
