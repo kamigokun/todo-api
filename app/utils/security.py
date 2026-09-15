@@ -16,6 +16,7 @@ def hash_password(password: str) -> str:
         "mypassword123" → "$2b$12$KIXxkM..."
     We store the hash, NEVER the original password.
     """
+    password = password[:72]
     return pwd_context.hash(password)
 
 
