@@ -1,0 +1,62 @@
+[33mcommit 9d62efddcfcda2661384fe7619833ef592f7964e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Sun Sep 6 17:51:42 2026 +0530
+
+    test contribution graph
+
+[33mcommit 3387af57789709820c9bae4066ef54241bafb723[m
+Merge: b85bec3 1aa8611
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Sun Sep 6 17:48:27 2026 +0530
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 1aa861158005a31be3f8e63acb4dcd2fa4b7cef6[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Fri Sep 4 18:34:00 2026 +0530
+
+    feat: add auth and todo routers with all endpoints.
+
+[33mcommit b85bec34ea9384594ace1c03e6ffeb8af9f09c94[m
+Author: harshit <139238539+kamigokun@users.noreply.github.com>
+Date:   Thu Sep 3 07:50:28 2026 +0530
+
+    Fix comment formatting in alembic.ini
+
+[33mcommit f098b623137d2b306969ca53d7b7574b32179bdb[m
+Author: harshit <139238539+kamigokun@users.noreply.github.com>
+Date:   Thu Sep 3 07:49:48 2026 +0530
+
+    Fix comment formatting in alembic.ini
+    
+    Corrected comment formatting in alembic.ini
+
+[33mcommit 0bac2f9afa1db836bd469a477dee12338adfafc7[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Tue Jul 28 23:54:02 2026 +0530
+
+    feat: add auth and todo routers with all endpoints
+
+[33mcommit efad0c03b062e09e33f37bb25f1d70128ac1e5b0[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Sun Jul 26 00:17:15 2026 +0530
+
+    feat:add todo CRUD business logic with ownership checks
+
+[33mcommit bd3828eaca088eb30686e825f1ae0811ae808662[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Sun Jul 19 19:47:07 2026 +0530
+
+    feat: add register and login business logic in auth service
+
+[33mcommit de493287a136bfd230c323050d1c12beb7a39d4e[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Wed Jul 8 10:37:24 2026 +0530
+
+    feat: add get_current_user dependency for route protection
+
+[33mcommit 7f1fa1f146e7b7ff35abf87430895b6e55a20a73[m
+Author: kamigokun <rawatharshit8383@gmail.com>
+Date:   Mon Jul 6 18:12:16 2026 +0530
+
+    feat: add user and todo schemas for request and response validation

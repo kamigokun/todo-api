@@ -17,7 +17,7 @@ class LoginRequest(BaseModel):
     email: str
     password: str
 
-@router.post("/regiter", response_model=TokenResponses)
+@router.post("/register", response_model=TokenResponses)
 def register(data: UserCreate, db: Session = Depends(get_db)):
     """
     POST /register

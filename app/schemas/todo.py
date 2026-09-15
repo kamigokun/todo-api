@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from datetime import datetime
 from typing import Optional, List
-from app.model.todo import TodoStatus
+from app.models.todo import TodoStatus
 
 
 class TodoCreate(BaseModel):
@@ -11,7 +11,7 @@ class TodoCreate(BaseModel):
     title : str
     description : Optional[str] = None
 
-class TodoUpdate(BaseMOdel):
+class TodoUpdate(BaseModel):
     """shape of the data we ACCEPT WHEN updating a todo
     all fields are optional here user can update .
     just a title , just the status , or everything right"""
