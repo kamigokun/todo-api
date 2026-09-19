@@ -28,7 +28,7 @@ def create_todo(data: TodoCreate, current_user: User, db: Session) -> Todo:
     return new_todo
 
 
-def get_todos(current_user: User , db: Session , page: int) -> dict:
+def get_todos(current_user: User , db: Session , page: int, limit: int) -> dict:
     """Returns a paginated list of todos for the logged in user.
     
     things to keep in mind here:
