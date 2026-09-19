@@ -16,7 +16,7 @@ def hash_password(password: str) -> str:
         "mypassword123" → "$2b$12$KIXxkM..."
     We store the hash, NEVER the original password.
     """
-    password = password[:72]
+    
     return pwd_context.hash(password)
 
 
@@ -26,6 +26,7 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
     Used during login — user sends password, we verify it.
     Returns True if match, False if wrong password.
     """
+    
     return pwd_context.verify(plain_password, hashed_password)
 
 
