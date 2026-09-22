@@ -108,7 +108,7 @@ def update_todo(todo_id: int, data: TodoUpdate, current_user: User, db: Session)
         setattr(todo,field,value)   #todo.title = "new title" etc
 
     db.commit()             #save changes
-    db.refrest(todo)       #get updated data back
+    db.refresh(todo)       #get updated data back
 
     return todo
 
